@@ -1,0 +1,5 @@
+f = open("test.txt", "r", encoding="UTF-8")
+content = f.readlines()
+print(f"content的类型是{type(content)}")
+print(content)
+f.close()
